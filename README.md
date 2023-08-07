@@ -5,4 +5,4 @@ Team members:
 - Rafain Rodriguez San Millan
 - Cate Dombrowski
 - Vanesa Alcantara Panta
-- Jordan Ehlinger
+- Jordan Philip Graham Ehlinger
