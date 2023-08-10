@@ -3,7 +3,7 @@ library(ggplot2)
 library(dplyr)
 library(flexclust)
 
-wine_data <- read_csv('/Users/rafainrsm/src/summer23/STA380/STA380_exercises/data/wine.csv')
+wine_data <- read_csv('./data/wine.csv')
 summary(wine_data)
 
 View(wine_data)
@@ -35,7 +35,6 @@ qplot(fixed.acidity, density, data=wine_data, color=factor(clust2$cluster))
 # Alcohol vs pH
 ggplot(wine_data) +  geom_point(aes(x=alcohol, y=pH, color=color))
 qplot(alcohol, pH, data=wine_data, color=factor(clust2$cluster))
-
 
 # template
 ggplot(wine_data) +  geom_point(aes(x=citric.acid, y=sulphates, color=color))
