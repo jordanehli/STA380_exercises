@@ -23,14 +23,17 @@ PCA$rotation
 
 wines = merge(wine, PCA$x[,1:3], by.x=1, by.y = 0)
 
+# PC1 explains 25.35% of the variance in the model. 
 ggplot(wines) + 
   geom_col(aes(x=reorder(color, PC1), y=PC1)) + 
   coord_flip()
 
+# PC2 explains 22.08% of the variance in the model.
 ggplot(wines) + 
   geom_col(aes(x=reorder(color, PC2), y=PC2)) + 
   coord_flip()
 
+# PC3 explains 13.68% of the variance in the model. 
 ggplot(wines) + 
   geom_col(aes(x=reorder(color, PC3), y=PC3)) + 
   coord_flip()
