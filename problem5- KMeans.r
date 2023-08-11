@@ -39,3 +39,10 @@ qplot(alcohol, pH, data=wine_data, color=factor(clust2$cluster))
 # template
 ggplot(wine_data) +  geom_point(aes(x=citric.acid, y=sulphates, color=color))
 qplot(citric.acid, sulphates, data=wine_data, color=factor(clust2$cluster))
+
+# We can see that using all the variables it allows us to correctly
+# label each one of the wines. There are some points that fail to be
+# correctly identified but overall we can see the correct identifiers
+# for white and red wine. 
+# Still there are some of the wines that have a lot of similar values
+# that are failed to be identified in their correct clusters
