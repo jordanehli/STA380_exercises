@@ -32,7 +32,7 @@ The solution to the Market segmentation (Problem6) and comments are [available h
 The solution to the  The Reuters corpus (Problem7) and comments are [available here](https://github.com/rafain/STA380_exercises/blob/main/problem7.ipynb))
 
 ## Association rule mining
-The solution to the Association rule mining (Problem8) and comments are [available here](https://github.com/rafain/STA380_exercises/blob/main/problem8.ipynb) 
+The solution to the Association rule mining (Problem8) and comments are [available here](https://github.com/rafain/STA380_exercises/blob/main/problem8.r) 
 
 ## Image classification with neural networks
 The solution to the Image classification with neural networks (Problem9) and comments are [available here](https://github.com/rafain/STA380_exercises/blob/main/problem9.ipynb) 
