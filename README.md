@@ -2,10 +2,10 @@
 STA380 Summer 2023 pt 2. exercises 
 
 Team members:
-- Rafain Rodriguez San Millan
-- Cate Dombrowski
-- Vanesa Alcantara Panta
-- Jordan Philip Graham Ehlinger
+- Rafain Rodriguez San Millan: rr53552
+- Cate Dombrowski: cd37589
+- Vanesa Alcantara Panta: vaa768
+- Jordan Ehlinger: je28596
   
 In this repository you can find the answers the STA380 excercises
 
